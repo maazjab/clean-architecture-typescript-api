@@ -5,7 +5,7 @@
   "main": "dist/main/server.js",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w",
+    "build:watch": "npm run build -- --watch",
     "start": "node dist/main/server.js",
     "test": ""
   },
@@ -15,5 +15,8 @@
   "devDependencies": {
     "@types/node": "^20.2.3",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
   }
 }

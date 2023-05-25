@@ -2,8 +2,8 @@
 
 
 # NPM 
-# npm i -D typescript @types/node
-#
+# npm i -D typescript @types/node 
+# npm i module-alias
 #
 #
 #
