@@ -1,0 +1,5 @@
+package :
+    npm i -D typescript @types/node
+
+commande :
+    npx tsc --int

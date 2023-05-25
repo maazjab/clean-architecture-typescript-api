@@ -1,0 +1,19 @@
+{
+  "name": "clean-architecture-with-typescript-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main/server.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "node dist/main/server.js",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  }
+}
